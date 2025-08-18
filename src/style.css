@@ -205,7 +205,8 @@ summary {
 body {
     background-color: color-mix(in srgb, Canvas, CanvasText 2.5%);
     color: color-mix(in srgb, CanvasText, Canvas 15%);
-    color-scheme: light dark;
+    color-scheme: light;
+    /* color-scheme: light dark; */
 }
 
 h1,
@@ -272,16 +273,4 @@ h6 {
 
 .article :where(h1, h2, h3, h4, h5) {
     all: revert;
-}
-
-body {
-    background-color: rebeccapurple;
-    background: url(./profile.jpg);
-    background-color: rgba(255, 255, 255, 0.6);
-    background-blend-mode: lighten;
-
-    font-family: "Space Grotesk";
-    font-size: 100px;
-    font-weight: bolder;
-    text-align: center;
 }
