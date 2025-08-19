@@ -1,5 +1,4 @@
 import { greeting } from "./greeting.js";
 import "./style.css";
 
-
-console.log("Hello World");
+const content = document.querySelector("div#content");
