@@ -278,17 +278,9 @@ h6 {
 body {
     background: url(./homescreenify-sA3wymYqyaI-unsplash.jpg);
 
-    /* filter: blur(8px); */
-    /* -webkit-filter: blur(8px); */
-
-    /* height: 100%; */
-
-    /* background-position: center; */
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-
-    /* backdrop-filter: brightness(60%); */
-
 }
 
 header {
@@ -349,7 +341,7 @@ button:hover {
 
 .headline:hover {
     transform: rotate(-5deg) scale(1.25);
-    color:black;
+    color: black;
     text-shadow: 5px 5px yellow;
 }
 

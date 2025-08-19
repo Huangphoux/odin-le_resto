@@ -1,5 +1,6 @@
 function loadHome() {
     const content = document.querySelector("div#content");
+    content.textContent = "";
 
     const headline = document.createElement("div");
     headline.classList.toggle("headline");
