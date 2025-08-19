@@ -343,6 +343,8 @@ button:hover {
     text-decoration: underline;
 
     color: yellow;
+
+    white-space: pre-line;
 }
 
 .headline:hover {
@@ -361,7 +363,7 @@ ul,
 
     font-size: 20px;
 
-    backdrop-filter: blur(20px);
+    backdrop-filter: brightness(40%);
 }
 
 ul {

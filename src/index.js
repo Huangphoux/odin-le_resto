@@ -1,4 +1,4 @@
-import { greeting } from "./greeting.js";
+import { loadHome } from "./home.js";
 import "./style.css";
 
-const content = document.querySelector("div#content");
+loadHome();
