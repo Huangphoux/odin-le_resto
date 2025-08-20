@@ -356,13 +356,12 @@ ul,
     font-size: 20px;
 
     backdrop-filter: brightness(40%);
-}
 
-ul {
-    display: grid;
+display: grid;
     gap: 20px;
     place-items: center;
 }
+
 
 p:nth-child(1) {
     text-align: center;
