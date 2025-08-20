@@ -3,8 +3,6 @@ import { loadMenu } from "./scripts/menu.js";
 import { loadContact } from "./scripts/contact.js";
 import "./style.css";
 
-loadHome();
-
 const homeBtn = document.querySelector("button:nth-child(1)");
 homeBtn.addEventListener("click", loadHome);
 

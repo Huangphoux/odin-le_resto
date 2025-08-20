@@ -276,7 +276,7 @@ h6 {
 }
 
 body {
-    background: url(./homescreenify-sA3wymYqyaI-unsplash.jpg);
+    background: url(assets/homescreenify-sA3wymYqyaI-unsplash.jpg);
 
     background-position: top;
     background-repeat: no-repeat;
@@ -364,10 +364,31 @@ ul {
     place-items: center;
 }
 
-ul>p,
-div>p {
+p:nth-child(1) {
     text-align: center;
     font-weight: bolder;
     font-style: italic;
     font-size: 50px;
+}
+
+.menu li {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+}
+
+img {
+    height: 200px;
+}
+
+li>div {
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    transform: rotate(-5deg);
+
+    text-shadow: 5px 5px black;
+    text-decoration: underline;
+
+    color: yellow;
 }
